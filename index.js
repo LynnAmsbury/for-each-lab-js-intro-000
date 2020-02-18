@@ -7,4 +7,5 @@ function iterativeLog(array){
 
 function iterate(callback) {
   var catsArray = ['Casper', 'Journey'];
+  return catsArray.forEach(callback);
 }
